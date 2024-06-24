@@ -358,7 +358,7 @@ namespace sqlnexus
             this.ll_CustomRowset.LinkColor = System.Drawing.Color.DarkBlue;
             this.ll_CustomRowset.Name = "ll_CustomRowset";
             this.ll_CustomRowset.TabStop = true;
-            this.ll_CustomRowset.Click += new System.EventHandler(this.ll_CustomRowset_Click);
+            this.ll_CustomRowset.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ll_CustomRowset_Click);
             // 
             // pbPrint
             // 
@@ -429,7 +429,7 @@ namespace sqlnexus
             this.linkLabelImport.TabStop = true;
             this.linkLabelImport.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelImport_LinkClicked);
             this.linkLabelImport.LocationChanged += new System.EventHandler(this.linkLabelImport_LocationChanged);
-            this.linkLabelImport.Click += new System.EventHandler(this.importToolStripMenuItem_Click);
+            this.linkLabelImport.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.importToolStripMenuItem_Click);
             // 
             // paTasksHeader
             // 
