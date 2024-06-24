@@ -163,6 +163,7 @@ namespace sqlnexus
             this.btPath.Name = "btPath";
             this.btPath.Size = new System.Drawing.Size(25, 21);
             this.btPath.TabIndex = 2;
+            this.btPath.Text = "Browse for folder";
             this.btPath.UseVisualStyleBackColor = true;
             this.btPath.Click += new System.EventHandler(this.tsbPath_Click);
             // 
