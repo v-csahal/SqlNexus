@@ -1277,6 +1277,7 @@ namespace sqlnexus
             resources.GetString("tscZoom.Items7"),
             resources.GetString("tscZoom.Items8")});
             this.tscZoom.Name = "tscZoom";
+            this.tstbFind.AccessibleName = "Zoom";
             resources.ApplyResources(this.tscZoom, "tscZoom");
             this.tscZoom.SelectedIndexChanged += new System.EventHandler(this.tscZoom_SelectedIndexChanged);
             // 
@@ -1286,6 +1287,7 @@ namespace sqlnexus
             this.tstbFind.Margin = new System.Windows.Forms.Padding(10, 0, 1, 0);
             this.tstbFind.Name = "tstbFind";
             this.tstbFind.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tstbFind_KeyPress);
+            this.tstbFind.AccessibleName = "Find";
             this.tstbFind.TextChanged += new System.EventHandler(this.tstbFind_TextChanged);
             // 
             // tsbFind
@@ -1324,6 +1326,7 @@ namespace sqlnexus
             this.tscCurrentDatabase.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tscCurrentDatabase_KeyUp);
             this.tscCurrentDatabase.Click += new System.EventHandler(this.tscCurrentDatabase_Click);
             this.tscCurrentDatabase.TextChanged += new System.EventHandler(this.tscCurrentDatabase_TextChanged);
+            this.tscCurrentDatabase.AccessibleName = "Current DB";
             // 
             // toolbarMain
             // 
