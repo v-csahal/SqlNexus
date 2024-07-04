@@ -1277,7 +1277,7 @@ namespace sqlnexus
             resources.GetString("tscZoom.Items7"),
             resources.GetString("tscZoom.Items8")});
             this.tscZoom.Name = "tscZoom";
-            this.tstbFind.AccessibleName = "Zoom";
+            this.tscZoom.AccessibleName = "Zoom";
             resources.ApplyResources(this.tscZoom, "tscZoom");
             this.tscZoom.SelectedIndexChanged += new System.EventHandler(this.tscZoom_SelectedIndexChanged);
             // 
